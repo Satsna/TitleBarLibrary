@@ -4,7 +4,7 @@
 由于安卓开发中经常使用标题栏，故而自定义了一个简单易用的标题栏。
 
 ##效果预览
-	![enter description here][1]
+![enter description here][1]
 
 ##简单使用：
 
@@ -56,4 +56,4 @@
  
 
 
-  [1]: ./images/QQ%E6%88%AA%E5%9B%BE20191023171355.png "QQ截图20191023171355.png"
+  [1]: ./images/preview_1.png "preview_1.png"
