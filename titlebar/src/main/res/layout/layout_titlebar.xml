@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_titlebar"
+    style="@style/style_titlebar_frame">
+
+
+    <!--标题栏左边-->
+    <RelativeLayout
+        android:id="@+id/rl_left"
+        style="@style/style_titlebar_left">
+
+        <ImageView
+            android:id="@+id/icon_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/marginLeft"
+            android:src="@mipmap/iv_back" />
+    </RelativeLayout>
+
+
+    <!--标题栏中间-->
+    <RelativeLayout
+        android:id="@+id/rl_center"
+        style="@style/style_titlebar_center">
+
+        <TextView
+            android:id="@+id/tv_title"
+            style="@style/style_titlebar_center_text_black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:lines="1"
+            android:maxLength="10" />
+    </RelativeLayout>
+    <!--标题栏右边-->
+    <RelativeLayout
+        android:id="@+id/rl_right"
+        style="@style/style_titlebar_right">
+
+        <ImageView
+            android:id="@+id/icon_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true" />
+
+        <TextView
+            android:id="@+id/tv_right"
+            style="@style/style_titlebar_right_text_white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/icon_right"
+            android:gravity="center"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</RelativeLayout>
