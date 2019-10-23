@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.satsna.titlebar.view.view.TitleBarView
+        android:id="@+id/tbv"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#fff"
+        app:centerText="首页"
+        app:centerTextColor="#000"
+        app:centerTextSize="18sp"
+        app:centerVisibility="visibleTextView"
+        app:leftSrc="@mipmap/iv_back_black"
+        app:leftVisibility="invisible"
+        app:rightText="更多"
+        app:rightSrc="@mipmap/iv_back"
+
+
+        >
+
+    </com.satsna.titlebar.view.view.TitleBarView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#aaa" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="你好"
+        android:textSize="30sp" />
+
+</LinearLayout>
