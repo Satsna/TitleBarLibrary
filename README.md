@@ -5,11 +5,7 @@
 
 ##效果预览
 
-<<<<<<< HEAD
 ![Image text](https://github.com/Satsna/TitleBarLibrary/blob/master/preview/preview_1.png)
-=======
-![enter description here][1]
->>>>>>> dbc526c63a8c4aba7ac106b584dfb251a9261787
 
 ##简单使用：
 
@@ -59,6 +55,7 @@
 
  
  
+
 
 
   [1]: https://github.com/Satsna/TitleBarLibrary/blob/master/preview/preview_1.png
