@@ -29,4 +29,20 @@
         
  ##自定义属性解释
  
+ 	###左边控件属性
+ 	  app:leftSrc="@mipmap/iv_back_black" 指定左边图片
+      app:leftVisibility="visibleImage" 左边图片是否显示 invisible：不显示 visibleImage显示图片
+	###中间控件属性
+      app:centerText="首页" 指定中间标题文字
+      app:centerTextColor="#000" 指定中间标题文字颜色
+      app:centerTextSize="18sp" 指定中间标题文字大小
+      app:centerVisibility="visibleTextView" 中间标题是否可见 invisible：不显示，visibleTextView：显示中间标题
+	###右边控件属性
+      app:rightVisibility="visibleTextView" 指定右边显示选项：invisible：右边不显示，visibleTextView：右边显示文字，visibleImage：右边显示图片
+      app:rightText="更多" 指定右边文字
+      app:rightTextColor="#000" 指定右边文字颜色
+      app:rightTextSize="18sp" 指定右边文字大小
+	app:rightSrc="@mipmap/iv_back" 指定右边显示的图片
+
+ 
  
