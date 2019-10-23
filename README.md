@@ -5,7 +5,7 @@
 
 ##效果预览
 
-![enter description here][1]
+![Image text](https://github.com/Satsna/TitleBarLibrary/blob/master/preview/preview_1.png)
 
 ##简单使用：
 
