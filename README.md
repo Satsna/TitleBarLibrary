@@ -4,6 +4,7 @@
 由于安卓开发中经常使用标题栏，故而自定义了一个简单易用的标题栏。
 
 ##效果预览
+
 ![enter description here][1]
 
 ##简单使用：
@@ -56,4 +57,4 @@
  
 
 
-  [1]: ./images/preview_1.png "preview_1.png"
+  [1]: https://github.com/Satsna/TitleBarLibrary/blob/master/preview/preview_1.png
