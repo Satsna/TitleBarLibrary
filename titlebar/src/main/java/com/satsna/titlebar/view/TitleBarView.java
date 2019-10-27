@@ -110,10 +110,8 @@ public class TitleBarView extends RelativeLayout {
                 String titleStr = typedArray.getString(R.styleable.TitleBarView_centerText);
                 tv_title.setText(titleStr == null ? "" : titleStr);
 
-                int color = typedArray.getColor(R.styleable.TitleBarView_centerTextColor, -1);
-                if (color != -1) {
-                    tv_title.setTextColor(color);
-                }
+                int color = typedArray.getColor(R.styleable.TitleBarView_centerTextColor, getResources().getColor(R.color.title_bar_text_black));
+                tv_title.setTextColor(color);
                 float size = typedArray.getDimensionPixelSize(R.styleable.TitleBarView_centerTextSize, -1);
                 if (size != -1) {
                     tv_title.setTextSize(TypedValue.COMPLEX_UNIT_PX, size);
@@ -153,10 +151,8 @@ public class TitleBarView extends RelativeLayout {
                 icon_right.setVisibility(INVISIBLE);
                 String rightStr = typedArray.getString(R.styleable.TitleBarView_rightText);
                 tv_right.setText(rightStr == null ? "" : rightStr);
-                int color = typedArray.getColor(R.styleable.TitleBarView_rightTextColor, -1);
-                if (color != -1) {
-                    tv_right.setTextColor(color);
-                }
+                int color = typedArray.getColor(R.styleable.TitleBarView_rightTextColor, getResources().getColor(R.color.title_bar_text_black));
+                tv_right.setTextColor(color);
                 float size = typedArray.getDimension(R.styleable.TitleBarView_rightTextSize, -1);
                 if (size != -1) {
                     tv_right.setTextSize(TypedValue.COMPLEX_UNIT_PX, size);
