@@ -1,1 +1,1 @@
-include ':titlebar'
+include ':titlebar', ':example'

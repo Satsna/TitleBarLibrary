@@ -8,24 +8,21 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <com.satsna.titlebar.view.view.TitleBarView
+    <com.satsna.titlebar.view.TitleBarView
         android:id="@+id/tbv"
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:background="#fff"
+        android:background="#888"
         app:centerText="首页"
-        app:centerTextColor="#000"
+        app:centerTextColor="#fff"
         app:centerTextSize="18sp"
         app:centerVisibility="visibleTextView"
         app:leftSrc="@mipmap/iv_back_black"
         app:leftVisibility="invisible"
-        app:rightText="更多"
-        app:rightSrc="@mipmap/iv_back"
+        app:rightSrc="@mipmap/iv_back_black"
+        app:rightText="更多">
 
-
-        >
-
-    </com.satsna.titlebar.view.view.TitleBarView>
+    </com.satsna.titlebar.view.TitleBarView>
 
     <View
         android:layout_width="match_parent"
