@@ -15,7 +15,7 @@
     
 2.布局文件中使用
 	
-    <com.satsna.titlebar.view.view.TitleBarView
+    <com.satsna.titlebar.view.TitleBarView
         android:id="@+id/tbv"
         android:layout_width="match_parent"
         android:layout_height="40dp"

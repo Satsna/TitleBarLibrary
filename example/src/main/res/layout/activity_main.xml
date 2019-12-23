@@ -12,14 +12,16 @@
         android:id="@+id/tbv"
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:background="#888"
+        android:background="#fff"
         app:centerText="首页"
-        app:centerTextColor="#fff"
+        app:centerTextColor="#000"
         app:centerTextSize="18sp"
         app:centerVisibility="visibleTextView"
         app:leftSrc="@mipmap/iv_back_black"
-        app:leftVisibility="invisible"
+        app:leftVisibility="visibleImage"
         app:rightSrc="@mipmap/iv_back_black"
+        app:rightVisibility="visibleTextView"
+
         app:rightText="更多">
 
     </com.satsna.titlebar.view.TitleBarView>
