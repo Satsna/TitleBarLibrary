@@ -20,6 +20,19 @@ public class TitleBarView extends RelativeLayout {
     protected ImageView icon_right;
     protected RelativeLayout rl_titlebar, rl_left, rl_center, rl_right;
 
+    private static int layoutRes = R.layout.layout_titlebar;
+
+    /**
+     * 设置布局文件
+     *
+     * @param layoutRes
+     */
+    public static void setLayoutRes(int layoutRes) {
+        if (layoutRes < 0) return;
+        TitleBarView.layoutRes = layoutRes;
+
+    }
+
     /**
      * 获取标题
      *
@@ -36,7 +49,7 @@ public class TitleBarView extends RelativeLayout {
     public TitleBarView(Context context, AttributeSet attrs) {
         super(context, attrs);
 
-        inflate(context, R.layout.layout_titlebar, this);
+        inflate(context, layoutRes, this);
         if (isInEditMode()) {
             return;
         }

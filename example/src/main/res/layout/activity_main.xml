@@ -21,7 +21,6 @@
         app:leftVisibility="visibleImage"
         app:rightSrc="@mipmap/iv_back_black"
         app:rightVisibility="visibleTextView"
-
         app:rightText="更多">
 
     </com.satsna.titlebar.view.TitleBarView>
